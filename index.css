@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:ital@1&display=swap');
+
+body {
+	/* font-family: 'Lato', sans-serif; */
+	font-family: 'Work Sans', sans-serif;
+}
+
+div.container {
+	height: 400px;
+	width: 1000px;
+	/* border: 5px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 auto;
+
+}
+
+div.container .play-ins {
+	/* border: 1px solid black; */
+	width: 290px;
+	height: 290px;
+}
+
+.play-ins h1 {
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 900;
+	font-size: 35px;
+}
+
+.play-ins p {
+	width: 260px;
+	text-align: center;
+}
+
+div.container .play-ins-img {
+
+	/* border:1px solid black; */
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.play-ins-img .img1 {
+	width: 100%;
+}
+
+.play-ins-img2 {
+	/* border:1px solid black; */
+	height: 200px;
+	width: 210px;
+	position: relative;
+	top: -150px;
+	left: 30px;
+}
+
+.play-ins-img2 .img2 {
+	width: 100%;
+	height: 100%;
+}
+
+.images {
+	/* border: 1px solid black; */
+	height: 400px;
+	width: 500px;
+}
+
+.pink {
+	color: rgba(215, 49, 76, 0.882);
+}
+
+.text-c-g {
+	color: gray;
+}
+
+div.container2 {
+
+	display: flex;
+	justify-content: space-evenly;
+	/* border: 5px solid black; */
+	height: 700px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+div.container2 .images-2 {
+	/* border: 1px solid black; */
+	height: 500px;
+	width: 500px;
+	margin-top: 20px;
+}
+
+div.container2 .images-txt {
+	/* border: 1px solid black; */
+	height: 500px;
+	width: 500px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	/* border: 1px solid black; */
+
+}
+
+.images-txt .para {
+	/* border:1px solid black; */
+	height: 150px;
+	width: 440px;
+	/* margin: 20px auto; */
+	text-align: center;
+	color: #534C64;
+}
+
+.images-txt .h1-heading {
+	width: 290px;
+	height: 150px;
+	/* border:1px solid black; */
+	/* margin:20px auto; */
+	text-align: left;
+}
+
+.img-div1 {
+	/* border:1px solid black; */
+	height: 450px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.img-div1 .img_1 {
+	width: 100%;
+	height: 100%;
+}
+
+.img-div2 {
+	/* border: 1px solid black; */
+	height: 220px;
+	width: 170px;
+	position: relative;
+	right: -280px;
+	top: -220px;
+}
+
+.img-div2 .img_2 {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width:576px) {
+	div.container {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 250px;
+	}
+
+
+	div.container2 {
+		flex-direction: column-reverse;
+	       margin-top:200px;
+		   margin-left:165px;
+	}
+
+
+
+}
