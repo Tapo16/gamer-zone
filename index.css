@@ -5,15 +5,276 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 
-div.container {
+.nav-container1 {
+	width: 100%;
+	background-color: #FFF;
+	box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-container1 .nav_ele1 {
+	width: 200px;
+	height: 100%;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-img-txt {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.nav-container1 .nav_ele2 {
+	width: 400px;
+	height: 100%;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	border-radius: 8px;
+}
+
+.nav_ele1 .nav-game-img {
+	height: 40px;
+	width: 80px;
+}
+
+.nav_ele2 el {
+	/* border: 1px solid black; */
+	color: black;
+}
+
+.nav_ele2 .nest_n_ele2 {
+	/* border: 1px solid black; */
+	width: 40%;
+	height: 30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(11, 2, 35, 0.10);
+	border-radius: 8px;
+
+}
+
+.fa-youtube {
+	color: red;
+}
+
+.fa-tiktok {
+	color: black;
+}
+
+
+.main-txt-goat {
+	/* border: 1px solid black; */
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	background-image: url("images/Group 14.png");
+}
+
+.main-txt-goat .goat-txt {
+	/* border: 1px solid black; */
+	width: 600px;
+	height: 500px;
+	text-align: center;
+	display: flex;
+	align-items: end;
+}
+
+.black-txt {
+	color: #0B0223;
+	font-size: 30px;
+}
+
+.goat-txt .Min-pink {
+	color: rgb(211, 12, 151);
+	font-size: 50px;
+
+}
+
+.same-txt p {
+	color: #534C64;
+}
+
+.center {
+	height: 15px;
+	margin-right: 5px;
+}
+
+.goat-txt .btn_pink {
+	background-color: rgb(222, 16, 208);
+	color: #FFF;
+	border-radius: 60px;
+	height: 40px;
+	width: 100px;
+	border: 0;
+}
+
+.goat-txt .btn_blue {
+	height: 40px;
+	width: 100px;
+	border: 0;
+	background-color: blue;
+	color: #FFF;
+	border-radius: 60px;
+}
+
+.goat-txt2 {
+	width: 100%;
 	height: 400px;
-	width: 1000px;
+	/* border: 1px solid black; */
+}
+
+
+.main-txt-goat .goat-images {
+	height: 500px;
+	width: 600px;
+	/* border: 1px solid #0B0223; */
+
+}
+
+.goat-images .image-goat {
+	height: 500px;
+	width: 100%;
+}
+
+
+.main-form {
+	/* border:1px solid black; */
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.main-form .gamer {
+	/* border:1px solid black; */
+	height: 100%;
+	width: 600px;
+	display: flex;
+}
+
+.gamer .gamer-img {
+	width: 100%;
+	height: 100%;
+}
+
+.gamer-img-txt {
+	/* border:1px solid black; */
+	width: 600px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gamer-img-txt .pink {
+	color: rgb(222, 16, 208);
+	font-size: 42px;
+}
+
+.txt-gray {
+	color: #534C64;
+	font-size: 15px;
+}
+
+.gamer-des-txt {
+	margin-left: 150px;
+}
+
+.btn-gamer {
+	color: #FFF;
+	background-color: rgb(246, 9, 230);
+	border-radius: 50px;
+	border: 0;
+	padding: 20px;
+}
+
+.same-h4 {
+	color: #534C64;
+	margin-right: -295px;
+}
+
+.unsame-h4 {
+	color: #0B0223;
+	font-size: 30px;
+	margin-top: -25px;
+}
+
+.Funny-Videos {
+	/* border: 1px solid black; */
+	height: 450px;
+	width: 100%;
+	/* border: 1px solid black; */
+}
+
+.Funny-Videos .Funny-Videos-txt {
+
+	text-align: center;
+	/* border: 1px solid black; */
+}
+
+.Funny-Videos-txt .small-para {
+	color: #534C64;
+	font-size: 14px;
+}
+
+.Funny-Videos-txt .heading-fv {
+	Color: #0B0223;
+	font-size: 37px;
+}
+
+
+.Funny-Videos-img {
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid black; */
+	height: 300px;
+	width: 900px;
+	margin: 15px auto;
+}
+
+.Funny-Videos-img .sub-img {
+	/* border: 1px solid #0B0223; */
+	width: 200px;
+	height: 300px;
+	margin-left: 18px;
+	
+	/* border-radius: 50px; */
+}
+
+
+.sub-img img {
+	width: 100%;
+	/* border-radius: 45px; */
+}
+
+
+.sub-img .time {
+	width: 200px;
+	margin-top: 15px;
+	/* border: 1px solid black; */
+	text-align: center;
+	font-size: 13px;
+}
+
+div.container {
+	height: 100%;
+	width: 100%;
 	/* border: 5px solid black; */
 	display: flex;
 	justify-content: space-evenly;
-	margin: 0 auto;
-
-}
+	margin:0 auto;
+	}
 
 div.container .play-ins {
 	/* border: 1px solid black; */
@@ -151,16 +412,69 @@ div.container2 .images-txt {
 	div.container {
 		flex-direction: column;
 		align-items: center;
-		margin-top: 250px;
+		margin-left: 34px;
 	}
 
 
 	div.container2 {
 		flex-direction: column-reverse;
-	       margin-top:200px;
-		   margin-left:165px;
+        margin-top:90px;
 	}
 
+	.nav-container1 {
+		flex-direction: column;
+	}
 
+	.nav-container1 .nav_ele2 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-txt-goat {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.main-form {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 200px;
+	}
+
+	.gamer-img-txt {
+		align-items: center;
+
+	}
+
+	.gamer-img-txt .pink {
+		font-size: 25px;
+	}
+
+	.txt-gray {
+		font-size: 10px;
+		width: 350px;
+	}
+
+	.same-h4{ 
+		margin-right: 50px;
+
+	}
+	.Funny-Videos{ 
+		display: flex;
+		flex-direction: column;
+		margin-left:40px;
+		margin-top: 100px;
+		/* border: 1px solid black; */
+		width:100%;
+		height: 100%;
+	}
+	.Funny-Videos-img{ 
+		flex-direction: column;
+		height: auto;
+		width: 100%;
+		margin:0 auto;
+		/* border: 1px solid black; */
+		align-items: center;
+	}
 
 }
